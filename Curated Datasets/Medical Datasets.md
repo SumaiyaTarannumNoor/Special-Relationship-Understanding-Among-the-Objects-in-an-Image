@@ -6,3 +6,5 @@
 - https://fastmri.med.nyu.edu/
 ## ADNI 
 - https://adni.loni.usc.edu/data-samples/adni-data/
+## Kvasir SEG
+- https://datasets.simula.no/kvasir-seg/
