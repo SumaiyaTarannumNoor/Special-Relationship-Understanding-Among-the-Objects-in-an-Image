@@ -8,3 +8,5 @@
 - https://adni.loni.usc.edu/data-samples/adni-data/
 ## Kvasir SEG
 - https://datasets.simula.no/kvasir-seg/
+## Skin Cancer MNIST: HAM10000
+- https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000
