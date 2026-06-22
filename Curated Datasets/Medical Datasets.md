@@ -14,3 +14,5 @@
 - https://challenge.isic-archive.com/landing/2018/
 ## BraTS 2018
 - https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=37224922
+## LiTS2017
+- https://academictorrents.com/details/27772adef6f563a1ecc0ae19a528b956e6c803ce
