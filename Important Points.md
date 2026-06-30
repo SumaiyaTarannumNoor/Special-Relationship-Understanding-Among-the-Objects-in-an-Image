@@ -15,6 +15,8 @@ Semantic World Model, is a combination of both VLM and VWM. It takes both object
 
 Traditional world model predicts future frames. But, Semantic World Model answers questions about the future given current observations (represented as an image) and a sequence of actions.
 
+SWM is empirically evaluated on a set of multiple different tasks in two commonly used multi-task simulation domains - Language Table (Lang Table) and OGBench. This evaluation shows that (1) SWM can accurately answer questions about future outcomes while generalizing to novel scenes, and (2) SWM can be combined with standard sampling-bases planning techniques and a gradient-based improvement technique to solve diverse robotic tasks with considerable policy improvements through test-time optimization. SWM introduces a new class of world models that leverage the rich pretraining knowledge from VLMsfor grounded, flexible, and scalsble robotic control.
+
 ## Task-agnostic
 Task-agnostic means operating independently of specific tasks or objectives. It describes systems, algorithms, or methods that function generally without requiring prior knowledge of, or adjustments for, the specific job.
 It describes a model that can solve many different types of problems without changing it's core structure. It's about model flexibility.
