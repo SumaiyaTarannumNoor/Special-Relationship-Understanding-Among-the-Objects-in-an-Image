@@ -12,3 +12,5 @@ Video World Model, this predicts the future observation about the object that ca
 
 ## SWM
 Semantic World Model, is a combination of both VLM and VWM. It takes both object observations and then predicts the future action sequence about them. For example - Will the Blue ball touch the red ball?
+
+Traditional world model predicts future frames. But, Semantic World Model answers questions about the future given current observations (represented as an image) and a sequence of actions.
