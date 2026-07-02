@@ -24,6 +24,10 @@ SWM is empirically evaluated on a set of multiple different tasks in two commonl
 Unlike VLAs, an SWM takes in observations, actions, and a natural language prompt as input, and generates a natural language response about the future after taking the actions. 
 In some sense, an SWM can be viewed as an "inverted" VLA, where the actions become the input and the language becomes the output. This approach hypothesizes that using language as the output format can better retain the pretraining knowledge of VLMs, since they were trained with next token prediction objectives.
 
+world models for control are approximate models of the dynamics of the world, typically trained to predict future observations conditioned on current observations and actions. the ability to forcast the future without interacting with the world can greatly facilitate decision-making and control.
+
+
+
 ## Task-agnostic
 Task-agnostic means operating independently of specific tasks or objectives. It describes systems, algorithms, or methods that function generally without requiring prior knowledge of, or adjustments for, the specific job.
 It describes a model that can solve many different types of problems without changing it's core structure. It's about model flexibility.
