@@ -27,6 +27,7 @@ In some sense, an SWM can be viewed as an "inverted" VLA, where the actions beco
 world models for control are approximate models of the dynamics of the world, typically trained to predict future observations conditioned on current observations and actions. the ability to forcast the future without interacting with the world can greatly facilitate decision-making and control.
 
 
+Unlike these explicit world models,SWM understands the dynamics of the world by reasoning in language space, allowing the model bootstrap from the Internet-scale pretraining of VLMs. SWM can then be used with planning techniques to derive versatile language-conditioned policies.
 
 ## Task-agnostic
 Task-agnostic means operating independently of specific tasks or objectives. It describes systems, algorithms, or methods that function generally without requiring prior knowledge of, or adjustments for, the specific job.
