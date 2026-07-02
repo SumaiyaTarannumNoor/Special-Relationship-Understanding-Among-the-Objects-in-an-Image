@@ -22,7 +22,7 @@ Traditional world model predicts future frames. But, Semantic World Model answer
 SWM is empirically evaluated on a set of multiple different tasks in two commonly used multi-task simulation domains - Language Table (Lang Table) and OGBench. This evaluation shows that (1) SWM can accurately answer questions about future outcomes while generalizing to novel scenes, and (2) SWM can be combined with standard sampling-bases planning techniques and a gradient-based improvement technique to solve diverse robotic tasks with considerable policy improvements through test-time optimization. SWM introduces a new class of world models that leverage the rich pretraining knowledge from VLMsfor grounded, flexible, and scalsble robotic control.
 
 Unlike VLAs, an SWM takes in observations, actions, and a natural language prompt as input, and generates a natural language response about the future after taking the actions. 
-In some sense, 
+In some sense, an SWM can be viewed as an "inverted" VLA, where the actions become the input and the language becomes the output. This approach hypothesizes that using language as the output format can better retain the pretraining knowledge of VLMs, since they were trained with next token prediction objectives.
 
 ## Task-agnostic
 Task-agnostic means operating independently of specific tasks or objectives. It describes systems, algorithms, or methods that function generally without requiring prior knowledge of, or adjustments for, the specific job.
